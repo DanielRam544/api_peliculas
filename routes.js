@@ -32,9 +32,8 @@ router.delete('/peliculas/:id', async (req, res) => {
 
 //Ruta para ir a la pagina de inicio
 router.get('/', (req, res) => {
-    res.render('index');
+    res.render('login');
 });
-
 
 
 //Ruta para solicitar token de autentificacion
